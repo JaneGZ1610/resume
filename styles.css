@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400&family=Roboto&display=swap');
+body {
+    font-size: 17px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    line-height: 1em;
+    word-spacing: 10px;
+    color: #0f141e;
+    
+
+}
+#name {
+ letter-spacing: 0.2em;  
+ 
+}
+#email {
+ letter-spacing: 0.2em;
+}
+.private {
+  display: flex;
+ 
+  
+  
+  
+}
+.private p {
+font-size: 18px;
+text-decoration: solid;
+opacity: 0.5;
+display: grid;
+
+
+}
+.private h1 {
+  margin-top: -15px;
+ text-decoration: underline;
+ margin-left: 30px;
+
+  
+}
+@media (max-width: 650px) {
+  .private {
+    display: block;
+    text-align: center;
+  }
+}
+
+.card {
+    border-style: solid;
+  border-radius: 10px;  
+  border-width: 3px;
+  border-color: #f6ff00;
+  margin-bottom: 10px;
+}
+
+.bg-green {
+    background-color: #00ff9d;
+}
+.bg-blue {
+    background-color: #00eeff;
+}
+.bg-red {
+    background-color: #ff000059;
+}
+.container {
+    max-width: 750px;
+    background-color: beige;
+    margin: auto;
+    padding: 30px;
+}
+
+.avatar {
+    width: 200px;
+  border-radius: 15px;  
+  box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+
+}
+@media (max-width: 650px) {
+  .avatar {
+    margin-bottom: 20px;
+  }
+}
+  a {
+    color: hsl(0, 59%, 51%);
+    text-decoration: none;
+  }  
+  a:hover {
+    font-size: 3rem;
+  }
+  a:visited {
+    color: azure;
+  }
+  a:active {
+    color: #f6ff00;
+  }
+.btn {
+    background: #111;
+    color: beige;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn:hover {
+    color:hsl(248, 59%, 51%);
+    opacity: .8;
+}
+.list {
+  
+  margin: 0%;
+  list-style: none;
+}
+.list li {
+  margin-bottom: 9px;
+  border-bottom: 1px;
+  list-style: square;
+  
+} 
+
+.table {
+  width: 100%;
+}
+
+.table td {
+  text-align: center;
+  padding-bottom: 5px;
+}
+.table th {
+  background: darkgray;
+}
+.table td:hover {
+  background: chocolate;
+}
+.table tr:nth-child(odd) {
+  background: #f6ff00;
+}
+.form h4 {
+  text-align: center;
+}
+ #name, #email {
+  display: flex;
+ 
+  
+ }
+
+  
